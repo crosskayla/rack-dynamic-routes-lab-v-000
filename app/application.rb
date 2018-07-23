@@ -20,7 +20,7 @@ class Application
       end
 
     else
-      resp.write "Path not found"
+      resp.write "Route not found"
       resp.status = 404
     end
 
