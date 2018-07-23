@@ -16,7 +16,7 @@ class Application
   end
 
   def handle_search(item)
-    @@items.include?()
+    @@items.include?(item)
   end
 
 end
