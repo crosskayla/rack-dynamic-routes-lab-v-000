@@ -9,9 +9,14 @@ class Application
 
     if req.path.match "/items/"
       item_name = req.path.split("/items/").last
-      
+
+
     end
 
+  end
+
+  def handle_search(item)
+    @@items.include?()
   end
 
 end
