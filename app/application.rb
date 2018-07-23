@@ -15,6 +15,7 @@ class Application
         resp.write item.price
       else
         resp.write "Item not found"
+      end
 
     else
       resp.write "Path not found"
